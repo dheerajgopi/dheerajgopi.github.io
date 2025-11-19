@@ -102,7 +102,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -185,83 +185,60 @@ params:
 
   # Experience
   experience:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Equal Experts"
+        companyUrl: "#"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /logo.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
-
-      - company: "Amazon"
-        companyUrl: "https://example.com"
-        jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
+          - name: "Senior Software Consultant"
+            date: "Oct 2025 - Present"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
+      - company: "Ampcus Tech Private Limited"
+        companyUrl: "#"
         jobs:
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /logo.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - name: "Senior Software Engineer"
+            date: "Jan 2023 - Sep 2025"
+            content: |
+              Working on **Acquaa**, a B2B SaaS product which helps water utility companies go completely digital in the US market.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+              - Owned the email notifications module, building both scheduled and real-time alerts to keep customers informed
+              - Implemented an AWS EventBridge and SQS-based solution to ensure scheduled tasks are triggered only once across multiple replicas, improving system efficiency and consistency
+              - Involved in migrating data from a client's legacy system to the new Acquaa platform
 
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+      - company: "Leanstation"
+        companyUrl: "#"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - name: "R&D Engineer"
+            date: "Aug 2022 - Dec 2022"
+            content: |
+              Worked on **Lean PlanDo**, a project management tool specialized for construction industry.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+              - Involved in development and deployment of core services
 
-      - company: "Google"
-        companyUrl: "https://example.com"
+      - company: "Laerdal Bangalore LLP"
+        companyUrl: "#"
         jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "Module Lead"
+            date: "Oct 2020 - Jul 2022"
+            content: |
+              Led development of **NRP Learning Platform** used by AAP (American Academy of Pediatrics) for educating health care professionals who handle new born babies.
+
+              - As a module lead, involved in design and development of the core APIs
+              - Provided technical guidance to other developers
+              - Achieved performance improvement of approximately 250x for a bulk import feature
+
+      - company: "Impelsys India Pvt Ltd"
+        companyUrl: "#"
+        jobs:
+          - name: "Software Engineer"
+            date: "Oct 2015 - Sep 2020"
+            content: |
+              Worked on **iPublishCentral Scholar**, a platform for delivering scholarly content like journals, books, courses etc.
+
+              - Worked on the core backend services
+              - Implemented user-level concurrency control using Redis
 
   #Contact
   contact:
