@@ -194,7 +194,7 @@ params:
         jobs:
           - name: "Senior Software Consultant"
             date: "Oct 2025 - Present"
-            content: |
+            content: ""
 
       - company: "Ampcus Tech Private Limited"
         companyUrl: "#"
