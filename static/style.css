@@ -1,0 +1,12 @@
+/* Custom styles - overrides for theme */
+
+/* Highlight links in blog content */
+#single .page-content a {
+    color: var(--primary-color) !important;
+}
+
+#single .page-content a:hover,
+#single .page-content a:focus,
+#single .page-content a:active {
+    opacity: 0.8;
+}

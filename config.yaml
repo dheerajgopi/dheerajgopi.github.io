@@ -29,18 +29,19 @@ markup:
       unsafe: true
 
 Menus:
-  # main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
 
 params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/logo.png"
+  customCSS: true
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -138,7 +139,7 @@ params:
     title: "About Me"
     image: "/images/dheeraj.jpg"
     content: |-
-      Results-driven Senior Software Engineer with 9 years of expertise in developing
+      Results-driven Senior Software Engineer with 10 years of expertise in developing
       enterprise-grade SaaS applications across diverse industries. Demonstrated track record
       of driving technical innovations and performance optimizations. Proficient in multiple
       programming languages (Java, Python, Kotlin, Go) and cloud technologies with extensive
@@ -185,7 +186,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - company: "Equal Experts"
