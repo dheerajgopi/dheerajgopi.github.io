@@ -14,11 +14,16 @@ outputs:
 
 enableRobotsTXT: true
 
-#services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    id: G-WX5XF5JD2Z
   #disqus:
     #shortname: your-disqus-shortname
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: true
 
 pagination:
   pagerSize: 3
