@@ -2,8 +2,9 @@
 title: "Redis Clone in Rust - Part 1"
 subtitle: "Setting Up a Simple TCP Server"
 date: 2024-08-24T00:00:00+05:30
-draft: true
+draft: false
 tags: ["rust", "redis", "tokio", "tcp"]
+image: /images/blogs/banner-rust-redis-clone-1.png
 ---
 
 In this tutorial, you'll start the journey towards building [Nimblecache](https://github.com/dheerajgopi/nimblecache) (Redis clone) by first creating a simple TCP server using [Tokio](https://tokio.rs/), a powerful asynchronous runtime for the Rust programming language. By the end of this tutorial, you will have a basic understanding of how to handle TCP connections and manage asynchronous tasks using Tokio. Let's dive in!
