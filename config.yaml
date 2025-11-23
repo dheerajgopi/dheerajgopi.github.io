@@ -114,8 +114,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Dheeraj Gopinath."
-    subtitle: "I build things for the web"
-    content: "Results-driven Senior Software Engineer with 10 years of expertise in developing enterprise-grade SaaS applications across diverse industries."
+    subtitle: "I build scalable, reliable and high-performance systems for the web"
+    content: "With 10+ years of experience delivering enterprise SaaS products, I enjoy taking ownership of challenging technical problems and building solutions that scale."
     image: /images/dheeraj.jpg
     bottomImage:
       enable: true
